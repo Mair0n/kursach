@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" class="animalForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Description</mat-label>
+      <input matInput formControlName="desciption">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Class</mat-label>
+      <input matInput formControlName="class">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Type</mat-label>
+      <input matInput formControlName="type">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Feed</mat-label>
+      <input matInput formControlName="feed">
+    </mat-form-field>
+    <button type="submit">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,14 @@
+#animalForm {
+    display: flex;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.wrapper {
+    width: 50vw;
+    padding: 20px;
+    background-color: beige;
+    opacity: 0.8;
+}
